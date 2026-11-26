@@ -16,7 +16,7 @@ device → local proxy 127.0.0.1:8080 → DNS to VPS:53 (relay) → OpenVPN 127.
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install -y wget iproute2 && \
-wget -O fastdns.sh https://raw.githubusercontent.com/JotchuaDevz/FastDNS-HexCustom/refs/heads/main/fastdns.sh && \
+wget -O fastdns.sh https://raw.githubusercontent.com/JotchuaST/FastDNS-HexCustom/refs/heads/main/fastdns.sh && \
 sudo bash fastdns.sh
 ```
 
